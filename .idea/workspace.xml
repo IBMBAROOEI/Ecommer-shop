@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="27fd17d1-578d-47b4-998b-99e21de6dd7d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/front/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/front/CartController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Order_Dtail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Order_Dtail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_19_184652_create_orders_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_19_184652_create_orders_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_19_185926_create_order__dtails_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_19_185926_create_order__dtails_table.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -344,7 +340,7 @@
       <path value="$PROJECT_DIR$/vendor/nicolaslopezj/searchable" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="372" />
     <option name="width" value="969" />
     <option name="height" value="740" />
@@ -424,6 +420,13 @@
               <item name="shop" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -617,12 +620,12 @@
       <workItem from="1616116993347" duration="12219000" />
       <workItem from="1616180437888" duration="24266000" />
       <workItem from="1616264498801" duration="25652000" />
-      <workItem from="1616368549223" duration="4841000" />
+      <workItem from="1616368549223" duration="5367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2272745000" />
+    <option name="totallyTimeSpent" value="2273271000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -649,7 +652,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.66614175" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2551181" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32913387" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
