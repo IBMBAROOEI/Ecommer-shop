@@ -29,10 +29,10 @@ class CartController extends Controller
     public function addcart(Request $request, $id)
     {
 
-//        $request->validate([
-//            'size' => 'required',
-//            'quntity'=>'required'
-//        ]);
+        $request->validate([
+            'size' => 'required',
+            'quntity'=>'required'
+        ]);
         $product = Product::find($id);
         $all_attrs = $request->all();
         $attr = explode('-', $all_attrs['size']);
@@ -57,12 +57,12 @@ class CartController extends Controller
 
                 ];
                 session()->put('cart', $cart);
-                return redirect()->back()->with('success', 'Product added to cart successfully!');
+                return redirect()->back()->with('success', 'اضافه شد به سبدخرید!');
             }
             if (isset($cart[$index])) {
                 $cart[$index]['quntity']++;
                 session()->put('cart', $cart);
-                return redirect()->back()->with('success', 'Product added to cart successfully!');
+                return redirect()->back()->with('success', 'اضافه شد به سبدخرید');
             }
             $cart[$index] =
                 [
@@ -78,15 +78,13 @@ class CartController extends Controller
                     "atribute_id" => $result_select->id,
                 ];
             session()->put('cart', $cart);;
-            return redirect()->back()->with('success', 'Product added to cart successfully!');
+            return redirect()->back()->with('success', 'اضافه شد به سبدخرید!');
 
         }
 
     }
 
-    public function g(){
 
-    }
 
 
 

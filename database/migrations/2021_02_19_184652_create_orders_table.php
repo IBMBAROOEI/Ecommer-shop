@@ -17,10 +17,8 @@ class CreateOrdersTable extends Migration
             $table->id();
             $table->foreign('users_id')->references('id')->on('users');
             $table->unsignedBigInteger('users_id');
-            $table->foreign('addresse_id')->references('id')->on('addresses');
-            $table->unsignedBigInteger('addresse_id');
             $table->enum('status', ['pending', 'processing', 'completed', 'decline'])->default('pending');
-            $table->decimal('order_total', 10, 6);
+            $table->string('order_total');
             $table->timestamps();
         });
     }
